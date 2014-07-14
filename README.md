@@ -3,7 +3,7 @@
 This document describes how I set up my developer environment on a new MacBook or iMac. We will set up [Node](http://nodejs.org/) (JavaScript), [Python](http://www.python.org/), and [Ruby](http://www.ruby-lang.org/) environments, mainly for JavaScript and Python development. Even if you don't program in all three, it is good to have them as many command-line tools use one of them. As you read  and follow these steps, feel free to send me any feedback or comments you may have.
 
 The document assumes you are new to Mac. The steps below were tested on **OS X Mountain Lion**.
-
+ra
 If you have any comments or suggestions, feel free to give me a shout [on Twitter](https://twitter.com/nicolahery)!
 
 - [System update](#system-update)
@@ -188,10 +188,10 @@ When done, to test that it installed fine you can run:
     
 And `$ which git` should output `/usr/local/bin/git`.
 
-Let's set up some basic configuration. Download the [.gitconfig](/nicolahery/mac-dev-setup/blob/master/.gitconfig) file to your home directory:
+Let's set up some basic configuration. Download the [.gitconfig](https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gitconfig) file to your home directory:
 
     $ cd ~
-    $ curl -O https://raw.github.com/nicolashery/mac-dev-setup/master/.gitconfig
+    $ curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gitconfig
 
 It will add some color to the `status`, `branch`, and `diff` Git commands, as well as a couple aliases. Feel free to take a look at the contents of the file, and add to it to your liking.
 
